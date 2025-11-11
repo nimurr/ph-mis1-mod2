@@ -34,3 +34,5 @@
 
 //! video 3
 
+// const numberArr : Array<string> = ["1", "2", "3"]
+// console.log(numberArr)
