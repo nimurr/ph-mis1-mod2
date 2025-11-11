@@ -36,3 +36,10 @@
 
 // const numberArr : Array<string> = ["1", "2", "3"]
 // console.log(numberArr)
+
+//? this is generic
+// type GenericArray<value> = Array<value>;
+// const numberArr: GenericArray<string> = ["1", "2", "3"]
+// console.log(numberArr)
+
+//! video 4
