@@ -43,3 +43,15 @@
 // console.log(numberArr)
 
 //! video 4
+
+//? generic for function & tuple
+
+// const add = <T>(a: T) => {
+//     return a;
+// }
+// console.log(add<string>("2"))
+
+// const add = <T>(a: T, b: T): T => {
+//     return a;
+// }
+// console.log(add<string>("1", "2"))
