@@ -55,3 +55,22 @@
 //     return a;
 // }
 // console.log(add<string>("1", "2"))
+
+
+//! video 6
+//? sonstrain  : strict rules deya
+
+// type std = {
+//     name: string,
+//     age: number
+// }
+
+// const add = <T extends std>(students: T) => {
+//     return {
+//         name: students.name,
+//         age: students.age
+//     };
+// }
+
+// console.log(add({ name: "John"})) //? get error because age is missing
+// console.log(add({ name: "John", age: 30 }))
