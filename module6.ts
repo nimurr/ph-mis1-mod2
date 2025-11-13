@@ -128,3 +128,37 @@
 
 // console.log(arrofStringUsingMap)
 
+
+// const object: {
+//     name: string,
+//     age: number
+// } = {
+//     name: "John",
+//     age: 30
+// }
+
+// for (const key in object) {
+//     console.log(object[key])
+// }
+
+//!  video 12
+
+//? utility type
+
+type product = {
+    id: number,
+    name: string,
+    price: number,
+    brand: string,
+    color?: string //? this is optional type
+}
+
+const product: product = {
+    id: 1,
+    name: "Laptop",
+    price: 50000,
+    brand: "Dell",
+    color: "Black"
+}
+
+console.log(product) 
