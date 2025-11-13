@@ -78,7 +78,7 @@
 //! video 8
 
 
-//? use enum for role 
+//? use enum for role
 
 // enum Role {
 //     USER = "user",
@@ -106,9 +106,25 @@
 
 //! video 10
 
-//? conditional types 
+//? conditional types
 
-type A = null;
-type B = undefined;
+// type A = null;
+// type B = undefined;
 
-type C = A extends null ? "a" : B extends undefined ? "b" : "c"
+// type C = A extends null ? "a" : B extends undefined ? "b" : "c"
+
+
+//! video 11
+
+//? loop use in typescript types
+
+
+
+// const arr: number[] = [1, 2, 3, 4, 5];
+
+// const arrofStringUsingMap: String[] = arr.map((item) => {
+//     return item.toString();
+// })
+
+// console.log(arrofStringUsingMap)
+
