@@ -103,3 +103,12 @@
 
 
 // console.log(user)
+
+//! video 10
+
+//? conditional types 
+
+type A = null;
+type B = undefined;
+
+type C = A extends null ? "a" : B extends undefined ? "b" : "c"
