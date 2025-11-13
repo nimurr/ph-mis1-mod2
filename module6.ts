@@ -145,20 +145,20 @@
 
 //? utility type
 
-type product = {
-    id: number,
-    name: string,
-    price: number,
-    brand: string,
-    color?: string //? this is optional type
-}
+// type product = {
+//     id: number,
+//     name: string,
+//     price: number,
+//     brand: string,
+//     color?: string //? this is optional type
+// }
 
-const product: product = {
-    id: 1,
-    name: "Laptop",
-    price: 50000,
-    brand: "Dell",
-    color: "Black"
-}
+// const product: product = {
+//     id: 1,
+//     name: "Laptop",
+//     price: 50000,
+//     brand: "Dell",
+//     color: "Black"
+// }
 
-console.log(product) 
+// console.log(product) 
